@@ -1,10 +1,19 @@
-    *    
-   ***   
-  *****  
- ******* 
-*********
-*********
- ******* 
-  *****  
-   ***   
-    *    
+before 0 2 after 1
+before 1 23 after 2
+before 2 6 after 3
+before 3 5 after 4
+before 4 69 after 5
+f 1
+2
+f 2
+23
+f 3
+before 5 50 after 0
+before 0 55 after 1
+before 1 560 after 2
+Queue is full after11 23
+6
+f 4
+5
+f 5
+69
