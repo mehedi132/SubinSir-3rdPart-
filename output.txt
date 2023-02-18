@@ -1,9 +1,13 @@
-10
-20
-10
-30
-20
-10
-20
-40
-10
+
+
+InOrder
+1 3 4 5 7 10 12 17 19 
+Will delete 1 from BST
+After delete in inorder
+3 4 5 7 10 12 17 19 
+Will delete 5 from BST
+After delete in inorder
+3 4 7 10 12 17 19 
+Will delete 10 from BST
+After delete in inorder
+3 4 7 12 17 19 
