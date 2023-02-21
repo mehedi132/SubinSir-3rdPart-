@@ -9,7 +9,7 @@ void merge1(int a[],int left,int mid,int right)
     int L[sizeLeft], R[sizeRight];
     for (i = 0; i < sizeLeft;i++)
     {
-        L[i] = a[left+i];
+        L[i] = a[left+i]; // merge two sorted array
     }
 
     for (i = 0; i < sizeRight;i++)
