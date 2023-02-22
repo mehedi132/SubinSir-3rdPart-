@@ -175,7 +175,7 @@ Node *bst_transplant(Node *root, Node *current, Node *new1)
         root = new1;
 
     }
-    else if(current=current->parent->left)
+    else if(current==current->parent->left)
     {
         addLeftnode(current->parent, new1);
 
@@ -229,8 +229,8 @@ freopen("output.txt", "w", stdout);
 #endif
 Node *root,*n;
 root = createBST();
-//cout << "PreOrder" << endl;
-//preeorder(root);
+cout << "PreOrder" << endl;
+preeorder(root);
 cout << endl;
 //cout << "PostOrder" << endl;
 //postorder(root);

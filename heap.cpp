@@ -101,16 +101,16 @@ freopen("output.txt", "w", stdout);
 
 //int h[] = {0, 17, 7, 15, 3, 5, 22, 10, 1, 2};
 //int h[] = {0, 12, 7, 1, 3, 10, 17, 19, 2, 5};
-int h[] = {0,19, 10 ,17 ,5 ,7, 12 ,1,2 ,3 };
+int h[] = {0,19, 10 ,17 ,50 ,7, 12 ,1,2 ,3 };
 int heapSize = sizeof(h)/sizeof(h[0]);
 int a;
-heap_print(h, heapSize);
+//heap_print(h, heapSize);
 // max_Heapify(h, heapSize - 1, 1);
 // heap_print(h,heapSize);
-//build_maxHeap(h, heapSize - 1);
+build_maxHeap(h, heapSize - 1);
 //heap_print(h,heapSize);
-heap_Sort(h, heapSize - 1);
-cout << "after sort" << endl;
+//heap_Sort(h, heapSize - 1);
+//cout << "after sort" << endl;
 heap_print(h, heapSize);
 
 a = isMaxHeap(h, heapSize - 1);
